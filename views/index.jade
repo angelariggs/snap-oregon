@@ -1,0 +1,26 @@
+extends layout
+
+block content
+	body
+		:verbatim
+			<nav>
+				<ul>
+					<li><h1 class='site-title'><a href='/'>snapOR</a></h1></li>
+					<section>
+					<li class='nav-explore'><a href='#'>Explore Parks</a></li>
+					<li class='nav-about'><a href='#'>About</a></li>
+					</section>
+					<section>
+						<li class='nav-login'><a href='/login'>Login</a></li>
+						<li class='nav-reg'><a href='/register'>Register</a></li>
+					</section>
+				</ul>
+			</nav>
+		<div id='user'></div>
+		<div id='userInfoDiv'></div>
+		<div id='map_canvas'></div>
+		<div id='parkInfo'></div>
+		<div id='parkHeader'></div>
+		<div id='pictures'></div>
+
+		<script src="/javascripts/all.js">$(document).foundation();</script>
